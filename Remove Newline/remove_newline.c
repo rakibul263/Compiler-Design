@@ -19,5 +19,8 @@ int main(){
 
     printf("New Line remove successfully.\n");
 
+    fclose(in);
+    fclose(out);
+
     return 0;
 }
