@@ -1,0 +1,1 @@
+#include<stdio.h>intmain(){intn;scanf("%d",&n);printf("Thenumberis:%d\n",n);return0;}
