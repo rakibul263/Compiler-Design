@@ -46,8 +46,7 @@ While specific build and usage instructions are not detailed in the repository c
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/rakibul263/Compiler-Design.git](https://github.com/rakibul263/Compiler-Design.git)
-    cd Compiler-Design
+    git clone https://github.com/rakibul263/Compiler-Design
     ```
 
 2.  **Compile the source code:**
