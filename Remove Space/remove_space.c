@@ -12,7 +12,7 @@ int main(){
     }
 
     while((ch = fgetc(in)) != EOF){
-        if(ch != ' ' && ch != '\t' && ch != '\n'){
+        if(ch != ' ' && ch != '\t'){
             fputc(ch, out);
         }
     }
