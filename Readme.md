@@ -14,11 +14,98 @@ This tool can be particularly useful in the preprocessing stages of a compiler, 
 
 This project implements several functionalities to clean source code:
 
-* **Single Line Comment Removal:** Strips `//` style comments.
-* **Multiple Line Comment Removal:** Eliminates `/* ... */` style comments.
-* **Combined Comment Removal:** Handles both single and multiple line comments effectively.
-* **Space Removal:** Removes unnecessary spaces and tabs, helping to compact the code.
-* **Newline Removal:** Eliminates unnecessary blank lines, further tidying the code.
+````
+
+**Description:**  
+Removes both single-line (`//...`) and multi-line (`/*...*/`) comments from the source code. This is useful for cleaning code before analysis or compilation.
+
+---
+
+### 🔹 `Single Line Comment Remove`
+**Description:**  
+Strips out comments that begin with `//` and continue to the end of the line.  
+**Example:**
+```cpp
+int a = 5; // This is a single-line comment
+````
+
+Becomes:
+
+```cpp
+int a = 5;
+```
+
+---
+
+### 🔹 `Remove Space`
+
+**Description:**
+Eliminates extra spaces and tabs to compact the code. This helps reduce file size and standardize formatting.
+**Example:**
+
+```cpp
+int    a    =     5 ;
+```
+
+Becomes:
+
+```cpp
+int a=5;
+```
+
+---
+
+### 🔹 `Remove Newline`
+
+**Description:**
+Removes unnecessary blank lines or newline characters to make the code more compact. Useful for preprocessing or code minification.
+
+---
+
+### 🔹 `Multiple Line Comment Remove`
+
+**Description:**
+Eliminates block comments that start with `/*` and end with `*/`.
+**Example:**
+
+```cpp
+/* This is a 
+   multi-line comment */
+int a = 5;
+```
+
+Becomes:
+
+```cpp
+int a = 5;
+```
+
+---
+
+### 🔹 `Operator Finding`
+
+**Description:**
+Detects operators in the code such as `+`, `-`, `*`, `/`, `=`, `==`, `!=`, etc. Useful for parsing or analyzing expressions.
+
+---
+
+### 🔹 `Length Control`
+
+**Description:**
+Monitors or restricts the length of lines or code blocks to meet coding standards or improve readability.
+
+---
+
+### 🔹 `Digit Finding`
+
+**Description:**
+Finds numeric digits (`0–9`) in the code. Helpful for analyzing constants, numeric values, or validating input.
+
+```
+
+Let me know if you want this in a downloadable `.md` file or in Bengali too.
+```
+
 
 ## 📝 Project Overview
 
@@ -30,6 +117,9 @@ As indicated by the commit history, the project has iteratively built up its cap
 * `Remove Space`
 * `Remove Newline`
 * `Multiple Line Comment Remove`
+* `Operator Finding`
+* `Length Control`
+* `Digit Finding`
 
 The codebase is entirely in C++, reflecting a direct and efficient approach to these text processing tasks.
 
