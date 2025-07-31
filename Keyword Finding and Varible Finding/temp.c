@@ -1,0 +1,1 @@
+#include <stdio.h> int a, b; float temp = 36.5; char grade = 'A'; void display() { int local = 5; printf("Grade: %c\n", grade); } int main() { double pi = 3.14; int count; return 0; } 

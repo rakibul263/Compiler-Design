@@ -1,0 +1,2 @@
+Total Alphabets: 10
+Total Digits: 6
