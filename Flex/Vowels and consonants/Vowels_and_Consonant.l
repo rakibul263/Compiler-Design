@@ -6,7 +6,7 @@
 %%
 
 [aeiouAEIOU] {  vowels++; }
-[a-zA-Z] {  consonant++;  }
+[b-df-hj-np-tv-zB-DF-HJ-NP-TV-Z] {  consonant++;  }
 . ;
 
 %%
