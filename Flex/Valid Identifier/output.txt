@@ -1,0 +1,9 @@
+Valid Identifier : abc
+Valid Identifier : _gakjsdl
+Invalid : 9
+Invalid : 5
+Invalid : 7
+Invalid : 3
+Invalid : 4
+Invalid : 8
+Valid Identifier : abacdsalkj
