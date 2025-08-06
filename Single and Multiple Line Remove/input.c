@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a = 10; // a variable
+    int a = 10; //
     int b = 20; // b variable
     int sum = a + b; // sum calculation
     printf("%d\n", sum); // print result
