@@ -1,13 +1,1 @@
-#include <iostream>
-
-int main() {
-    // এটা single-line comment
-
-    /*
-      ai code diye
-      hello world lekha hoyeche
-    */
-
-    std::cout << "Hello, world!" << std::endl;
-    return 0;
-}
+abba
