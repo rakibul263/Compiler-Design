@@ -1,0 +1,5 @@
+Single-line comment: // এটা single-line comment
+Multi-line comment: /*
+      ai code diye
+      hello world lekha hoyeche
+    */
